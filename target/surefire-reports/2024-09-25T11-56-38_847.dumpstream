@@ -1,0 +1,4 @@
+# Created at 2024-09-25T11:56:39.592
+Boot Manifest-JAR contains absolute paths in classpath 'D:\USRInfotech\gobetter\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
