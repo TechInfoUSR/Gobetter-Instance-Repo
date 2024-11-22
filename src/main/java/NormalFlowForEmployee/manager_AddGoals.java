@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -155,13 +156,23 @@ public class manager_AddGoals
                 driver.findElement(weightField).sendKeys(weight);
                 Thread.sleep(500);
                 driver.findElement(CreateBTN).click();
-                Thread.sleep(13000);
+//                Thread.sleep(13000);
                 
             }
         public boolean isGoalAdded() throws InterruptedException 
         {
-        	return driver.findElement(By.xpath("//div[contains(text(),'Saved goal successfully')]")).isDisplayed();
-        
+//        	return driver.findElement(By.xpath("//div[contains(text(),'Saved goal successfully')]")).isDisplayed();
+        	
+        	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30)); // Wait up to 30 seconds
+        	    try {
+        	        WebElement messageElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Saved goal successfully')]")));
+        	        return messageElement.isDisplayed();
+        	    } catch (TimeoutException e) {
+        	        System.out.println("Saved goal message did not appear within the timeout.");
+        	        return false;
+        	    }
+        	
+
         }
         
 }
