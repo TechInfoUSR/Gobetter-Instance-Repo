@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T05:26:02Z" name="Suite" finished-at="2024-11-22T05:30:56Z" duration-ms="294821">
+  <suite started-at="2025-01-24T04:40:33Z" name="Suite" finished-at="2025-01-24T04:44:40Z" duration-ms="247563">
     <groups>
     </groups>
-    <test started-at="2024-11-22T05:26:02Z" name="Smoke testing" finished-at="2024-11-22T05:30:56Z" duration-ms="294821">
+    <test started-at="2025-01-24T04:40:33Z" name="Smoke testing" finished-at="2025-01-24T04:44:40Z" duration-ms="247563">
       <class name="Test_Suit.SmokeTestSuite">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:26:02Z" name="setUp" finished-at="2024-11-22T05:26:15Z" duration-ms="12861" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:40:33Z" name="setUp" finished-at="2025-01-24T04:40:46Z" duration-ms="13224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddGoalPlan()[pri:1, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:26:15Z" name="AddGoalPlan" finished-at="2024-11-22T05:26:55Z" duration-ms="40843" status="PASS">
+        <test-method signature="AddGoalPlan()[pri:1, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:40:46Z" name="AddGoalPlan" finished-at="2025-01-24T04:41:22Z" duration-ms="36043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddGoalPlan -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:26:55Z" name="runOnFailure" finished-at="2024-11-22T05:26:55Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:22Z" name="runOnFailure" finished-at="2025-01-24T04:41:22Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="AddPMSCycle()[pri:2, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:26:55Z" name="AddPMSCycle" finished-at="2024-11-22T05:27:11Z" depends-on-methods="Test_Suit.SmokeTestSuite.AddGoalPlan" duration-ms="16038" status="PASS">
+        <test-method signature="AddPMSCycle()[pri:2, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:22Z" name="AddPMSCycle" finished-at="2025-01-24T04:41:36Z" depends-on-methods="Test_Suit.SmokeTestSuite.AddGoalPlan" duration-ms="14140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPMSCycle -->
-        <test-method signature="Initiate_PMSCycle()[pri:3, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:27:11Z" name="Initiate_PMSCycle" finished-at="2024-11-22T05:27:29Z" depends-on-methods="Test_Suit.SmokeTestSuite.AddPMSCycle" duration-ms="18043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Initiate_PMSCycle -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:27:11Z" name="runOnFailure" finished-at="2024-11-22T05:27:11Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:36Z" name="runOnFailure" finished-at="2025-01-24T04:41:36Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:27:29Z" name="runOnFailure" finished-at="2024-11-22T05:27:29Z" duration-ms="0" status="PASS">
+        <test-method signature="Initiate_PMSCycle()[pri:3, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:36Z" name="Initiate_PMSCycle" finished-at="2025-01-24T04:41:52Z" depends-on-methods="Test_Suit.SmokeTestSuite.AddPMSCycle" duration-ms="16061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initiate_PMSCycle -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:52Z" name="runOnFailure" finished-at="2025-01-24T04:41:52Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="Manager_AddGoalTo_Emp()[pri:4, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:27:29Z" name="Manager_AddGoalTo_Emp" finished-at="2024-11-22T05:28:00Z" depends-on-methods="Test_Suit.SmokeTestSuite.Initiate_PMSCycle" duration-ms="30557" status="PASS">
+        <test-method signature="Manager_AddGoalTo_Emp()[pri:4, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:41:52Z" name="Manager_AddGoalTo_Emp" finished-at="2025-01-24T04:42:17Z" depends-on-methods="Test_Suit.SmokeTestSuite.Initiate_PMSCycle" duration-ms="24362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Manager_AddGoalTo_Emp -->
-        <test-method signature="Employee_AssessmentSubmission()[pri:5, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:00Z" name="Employee_AssessmentSubmission" finished-at="2024-11-22T05:28:23Z" depends-on-methods="Test_Suit.SmokeTestSuite.Manager_AddGoalTo_Emp" duration-ms="23375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Employee_AssessmentSubmission -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:00Z" name="runOnFailure" finished-at="2024-11-22T05:28:00Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:17Z" name="runOnFailure" finished-at="2025-01-24T04:42:17Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:23Z" name="runOnFailure" finished-at="2024-11-22T05:28:23Z" duration-ms="0" status="PASS">
+        <test-method signature="Employee_AssessmentSubmission()[pri:5, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:17Z" name="Employee_AssessmentSubmission" finished-at="2025-01-24T04:42:36Z" depends-on-methods="Test_Suit.SmokeTestSuite.Manager_AddGoalTo_Emp" duration-ms="19502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_AssessmentSubmission -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:36Z" name="runOnFailure" finished-at="2025-01-24T04:42:36Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,15 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="Manager_AssessmentSubmissionTo_Skip()[pri:6, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:23Z" name="Manager_AssessmentSubmissionTo_Skip" finished-at="2024-11-22T05:28:43Z" depends-on-methods="Test_Suit.SmokeTestSuite.Employee_AssessmentSubmission" duration-ms="19778" status="PASS">
+        <test-method signature="Manager_AssessmentSubmissionTo_Skip()[pri:6, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:36Z" name="Manager_AssessmentSubmissionTo_Skip" finished-at="2025-01-24T04:42:52Z" depends-on-methods="Test_Suit.SmokeTestSuite.Employee_AssessmentSubmission" duration-ms="15589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Manager_AssessmentSubmissionTo_Skip -->
-        <test-method signature="Skip_Approval()[pri:7, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:43Z" name="Skip_Approval" finished-at="2024-11-22T05:28:57Z" depends-on-methods="Test_Suit.SmokeTestSuite.Manager_AssessmentSubmissionTo_Skip" duration-ms="14212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Skip_Approval -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:43Z" name="runOnFailure" finished-at="2024-11-22T05:28:43Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:52Z" name="runOnFailure" finished-at="2025-01-24T04:42:52Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:57Z" name="runOnFailure" finished-at="2024-11-22T05:28:57Z" duration-ms="0" status="PASS">
+        <test-method signature="Skip_Approval()[pri:7, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:42:52Z" name="Skip_Approval" finished-at="2025-01-24T04:43:03Z" depends-on-methods="Test_Suit.SmokeTestSuite.Manager_AssessmentSubmissionTo_Skip" duration-ms="11498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Skip_Approval -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:03Z" name="runOnFailure" finished-at="2025-01-24T04:43:03Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="OneToOneMeeting_Manager()[pri:8, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:28:57Z" name="OneToOneMeeting_Manager" finished-at="2024-11-22T05:29:15Z" depends-on-methods="Test_Suit.SmokeTestSuite.Skip_Approval" duration-ms="17194" status="PASS">
+        <test-method signature="OneToOneMeeting_Manager()[pri:8, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:03Z" name="OneToOneMeeting_Manager" finished-at="2025-01-24T04:43:16Z" depends-on-methods="Test_Suit.SmokeTestSuite.Skip_Approval" duration-ms="13036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OneToOneMeeting_Manager -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:15Z" name="runOnFailure" finished-at="2024-11-22T05:29:15Z" duration-ms="0" status="PASS">
+        <test-method signature="OnToOneMeeting_Employee()[pri:9, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:16Z" name="OnToOneMeeting_Employee" finished-at="2025-01-24T04:43:25Z" depends-on-methods="Test_Suit.SmokeTestSuite.OneToOneMeeting_Manager" duration-ms="9171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnToOneMeeting_Employee -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:16Z" name="runOnFailure" finished-at="2025-01-24T04:43:16Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,15 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="OnToOneMeeting_Employee()[pri:9, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:15Z" name="OnToOneMeeting_Employee" finished-at="2024-11-22T05:29:27Z" depends-on-methods="Test_Suit.SmokeTestSuite.OneToOneMeeting_Manager" duration-ms="12738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OnToOneMeeting_Employee -->
-        <test-method signature="Finalize_Emp_Appraisal()[pri:10, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:27Z" name="Finalize_Emp_Appraisal" finished-at="2024-11-22T05:29:53Z" depends-on-methods="Test_Suit.SmokeTestSuite.OnToOneMeeting_Employee" duration-ms="25670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Finalize_Emp_Appraisal -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:27Z" name="runOnFailure" finished-at="2024-11-22T05:29:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:25Z" name="runOnFailure" finished-at="2025-01-24T04:43:25Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,7 +146,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:53Z" name="runOnFailure" finished-at="2024-11-22T05:29:53Z" duration-ms="0" status="PASS">
+        <test-method signature="Finalize_Emp_Appraisal()[pri:10, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:25Z" name="Finalize_Emp_Appraisal" finished-at="2025-01-24T04:43:47Z" depends-on-methods="Test_Suit.SmokeTestSuite.OnToOneMeeting_Employee" duration-ms="21434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Finalize_Emp_Appraisal -->
+        <test-method signature="Remove_EmployeesFromGoalPlan()[pri:11, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:47Z" name="Remove_EmployeesFromGoalPlan" finished-at="2025-01-24T04:44:19Z" duration-ms="32178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_EmployeesFromGoalPlan -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:43:47Z" name="runOnFailure" finished-at="2025-01-24T04:43:47Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,11 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="Remove_EmployeesFromGoalPlan()[pri:11, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:29:53Z" name="Remove_EmployeesFromGoalPlan" finished-at="2024-11-22T05:30:31Z" duration-ms="37564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Remove_EmployeesFromGoalPlan -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:30:31Z" name="runOnFailure" finished-at="2024-11-22T05:30:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:44:19Z" name="runOnFailure" finished-at="2025-01-24T04:44:19Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method signature="DeletionOf_PMSCycleAndGoalPlan()[pri:12, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:30:31Z" name="DeletionOf_PMSCycleAndGoalPlan" finished-at="2024-11-22T05:30:56Z" duration-ms="25420" status="PASS">
+        <test-method signature="DeletionOf_PMSCycleAndGoalPlan()[pri:12, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:44:19Z" name="DeletionOf_PMSCycleAndGoalPlan" finished-at="2025-01-24T04:44:39Z" duration-ms="20518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeletionOf_PMSCycleAndGoalPlan -->
-        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:30:56Z" name="runOnFailure" finished-at="2024-11-22T05:30:56Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:44:39Z" name="teardown" finished-at="2025-01-24T04:44:40Z" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="runOnFailure(org.testng.ITestResult)[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2025-01-24T04:44:39Z" name="runOnFailure" finished-at="2025-01-24T04:44:39Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,10 +195,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runOnFailure -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Suit.SmokeTestSuite@7ce026d3]" started-at="2024-11-22T05:30:56Z" name="teardown" finished-at="2024-11-22T05:30:56Z" duration-ms="491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- Test_Suit.SmokeTestSuite -->
     </test> <!-- Smoke testing -->
   </suite> <!-- Suite -->
