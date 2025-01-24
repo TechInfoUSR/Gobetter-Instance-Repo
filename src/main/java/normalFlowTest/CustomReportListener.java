@@ -47,9 +47,7 @@ import java.io.IOException;
 
 public class CustomReportListener implements IReporter{
 
-	   private static String attachmentPath,subject;
-	   
-	
+	private static String attachmentPath,subject;
     private WebDriver driver;
     addGoalPlan addGoalPlan;
     DriverFactory df;
@@ -71,12 +69,7 @@ public class CustomReportListener implements IReporter{
 
     // Instance variable to store the output directory
     private String outputDirectory;
-
     
-
-    void Screenshort() {
-    	
-    }
     @Override
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
         // Store the output directory in the instance variable
@@ -166,9 +159,7 @@ public class CustomReportListener implements IReporter{
 //            email.setSSLOnConnect(true);
 //            email.setFrom("skipmanagergobetter@gmail.com");
 //            email.setSubject("Gobetter Instance Test Report");
-//            email.setHtmlMsg("Test Report: "+reportContent.toString());
-//
-//            
+//            email.setHtmlMsg("Test Report: "+reportContent.toString());        
 ////          String[] recipients = {"Hanumanth@usrinfotech.com","partnership@usrinfo.tech","ravi@okrstars.co","santhosh@usrinfo.tech","vaidya@usrinfo.tech","subashini@usrinfo.tech","support@okrstars.co"};
 //            String[] recipients = {"Hanumanth@usrinfotech.com","ravi@okrstars.co","santhosh@usrinfo.tech","vaidya@usrinfo.tech","subashini@usrinfo.tech"};
 
@@ -176,10 +167,7 @@ public class CustomReportListener implements IReporter{
                 email.addTo(recipient);
             }
             
-            
-            
             email.attach(attachment);
-
             email.send();
             System.out.println("Email sent successfully!");
         } else {
@@ -191,41 +179,5 @@ public class CustomReportListener implements IReporter{
 		CustomReportListener.attachmentPath = attachmentPath;
 		CustomReportListener.subject=subject;
 	}
-
-    
-//    public static void sendEmail(String to, String subject, String body, String attachmentPath) {
-//        
-//        Session session = Session.getInstance(properties, new Authenticator() {
-//            protected PasswordAuthentication getPasswordAuthentication() {
-//                return new PasswordAuthentication(from, password);
-//            }
-//        });
-//    	
-//    	
-//    try {
-//        Message message = new MimeMessage(session);
-//        message.setFrom(new InternetAddress(from));
-//        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
-//        message.setSubject(subject);
-//
-//        MimeBodyPart messageBodyPart = new MimeBodyPart();
-//        messageBodyPart.setText(body);
-//
-//        MimeBodyPart attachmentPart = new MimeBodyPart();
-//        attachmentPart.attachFile(attachmentPath);
-//
-//        Multipart multipart = new MimeMultipart();
-//        multipart.addBodyPart(messageBodyPart);
-//        multipart.addBodyPart(attachmentPart);
-//
-//        message.setContent(multipart);
-//
-//        Transport.send(message);
-//
-//    } catch (Exception e) {
-//        e.printStackTrace();
-//    }
-//    
-//    }
     
 }
